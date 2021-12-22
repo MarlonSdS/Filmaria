@@ -1,0 +1,35 @@
+#meus-filmes{
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    min-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+span{
+    font-size: 25px;
+}
+
+button{
+    margin-left: 10px;
+}
+
+div a{
+    text-decoration: none;
+    font-size: 22px;
+    color: cornflowerblue;
+}
